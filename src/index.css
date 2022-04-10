@@ -11,10 +11,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-::-webkit-progress-value {
-  position: relative;
-  width: 375px;
-  height: 944px;
 
-background: #FFFFFF;
-}
