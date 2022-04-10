@@ -1,17 +1,14 @@
-import './App.css';
 import React from 'react';
-import Header from './components/header/header';
-import Content from './components/content/content';
-
-import { AppWrap } from './appStyles';
-
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
+import Home from './pages/home';
+import Profile from './pages/profile';
 
 export default function App() {
   return (
-    <AppWrap>
-      <Header />
-      <Content />
-    </AppWrap>
-
+    <Routes>
+      <Route path="/" element={<Home  />} />
+      <Route path="profile" element={<Profile />} />
+    </Routes>
   );
 }

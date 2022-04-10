@@ -1,23 +1,25 @@
 .App {
     text-align: center;
-    display: flex;
+    display: inline-flexbox;
     justify-content: space-between;
     height: 80vh;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 0px;
   }
 
   .content {
     background-color: rgb(245, 248, 250);
-    display: flow-root;
+    display: table-row;
     flex-direction: column;
     flex: 1;
   }
-  .Contentwrap {
+
+.boxwrap {
     width: 100%;
-    margin:center;
-    border: 1px white;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+    border: 1px blue;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
   }
+
+  
