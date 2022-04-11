@@ -3,9 +3,11 @@ import { HeaderWrap } from './headerStyles';
 
 function Header() {
   return (
+    <div className='Header'>
       <HeaderWrap>
           <h1>HouseCleaner</h1>
       </HeaderWrap>
+    </div>
   );
 }
 

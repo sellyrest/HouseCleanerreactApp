@@ -33,30 +33,34 @@ function Content({ name, description, children }) {
                     <h4>Flash Sale</h4>
 
                     <p>Promo terbatas waktu, Ayo pesan sekarang!</p>
-                    <img src={banerpromo} className="App-image" alt='banerpromo' />
+                    <img src={banerpromo} className="App-image" alt='Baner promohc' />
                     <h4>Semua Promo</h4>
                     <h5>lihat semua tawaran menarik kami</h5>
-                    <img src={banerpromo2} className="App-image" alt='banerpromo2' />
-                    <img src={banerpromo3} className="App-image" alt='banerpromo3' />
+                    <img src={banerpromo2} className="App-image" alt='bpromo2' />
+                    <img src={banerpromo3} className="App-image" alt='banpromo3' />
 
-                      <Button
+                    <div className='Button'>
+                    <Button
         onClick={() => {
           setGreeting("Kini ada aplikasi HouseCleaner yang bisa membantu anda menyelesaikan pekerjaan rumah ! ")
         }}
       >
         change greeting
       </Button>
-      
-
-      <Link to="/profile">
-          <Button>to profile</Button>
-        </Link>
           
+
+                    </div>
                   </div>
                           
                   </Grid>
 
               </ContentWrap>
+              <div className='ButtontoP'>
+              <Link to="/profile">
+          <Button>to profile</Button>
+        </Link>
+                  
+              </div>
 
           </div></>
   )
