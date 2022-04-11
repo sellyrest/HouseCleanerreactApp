@@ -7,7 +7,7 @@ const media = {
 }
 
 export const ContentWrap = styled.div`
-width: 100%;
+width: 50%;
 margin:center;
 border: 1px white;
 display: flex;
@@ -36,14 +36,14 @@ h3 {
         background-color: gray;
 
         ${media.desktop} {
-            width: 47%;
+            width: 48%;
         }
     }
 
     .cont {
-        margin-top: 1px;
+        margin-top: 10px;
         width: 100%;
-        height: 130px;
+        height: 150px;
         background-color: gray;
 
         ${media.desktop} {
