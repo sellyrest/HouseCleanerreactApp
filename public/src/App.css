@@ -1,0 +1,66 @@
+.App {
+    text-align: left;
+    display: inline-flexbox;
+    justify-content: space-between;
+    height: 80vh;
+    flex-direction: column;
+    padding-top: 0px;
+  }
+
+  .content {
+    background-color: rgb(245, 248, 250);
+    display: table-row;
+    flex-direction: column;
+    flex: 1;
+  }
+
+.boxwrap {
+    width: 100%;
+    border: 1px blue;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+  }
+
+.Profilecont {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    flex-direction: column;
+    padding-top: 0px;
+
+}
+.App-button {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+.Header {
+    text-align: left;
+    width: 100%;
+}
+
+.App-image {
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+.Button {
+    text-align: center;
+    justify-items: center;
+}
+.ButtontoP {
+    text-align: center;
+    justify-items: center;
+}
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
